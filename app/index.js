@@ -28,10 +28,12 @@ const Home = () => {
           headerTitle: "",
         }}
       />
-      <ScrollView showsHorizontalScrollIndicator={false}>
+      <ScrollView
+        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
+      >
         <View style={{ flex: 1, padding: SIZES.medium }}>
           <Welcome />
-
           <Popularjobs />
           <Nearbyjobs />
         </View>
